@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_ceo_word_ceo_words",
+  "info": {
+    "displayName": "Ceo word"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
