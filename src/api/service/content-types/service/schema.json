@@ -37,21 +37,30 @@
       "required": true
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
+      ]
     },
     "services": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::intervenion.intervenion",
       "mappedBy": "category"
+    },
+    "primary_nav": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "navigation_name": {
+      "type": "string",
+      "unique": true
     }
   }
 }
