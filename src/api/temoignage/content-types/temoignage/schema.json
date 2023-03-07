@@ -18,7 +18,7 @@
       "repeatable": true,
       "component": "youtube-link.youtube-link"
     },
-    "SEO": {
+    "seo": {
       "type": "component",
       "repeatable": false,
       "component": "shared.seo"
