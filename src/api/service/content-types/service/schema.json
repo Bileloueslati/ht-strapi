@@ -61,6 +61,11 @@
     "navigation_name": {
       "type": "string",
       "unique": true
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
     }
   }
 }

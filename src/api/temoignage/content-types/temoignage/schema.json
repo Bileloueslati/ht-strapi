@@ -17,6 +17,11 @@
       "type": "component",
       "repeatable": true,
       "component": "youtube-link.youtube-link"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
     }
   }
 }
