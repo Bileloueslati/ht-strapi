@@ -1,7 +1,6 @@
 const mailer = require("../../../libs/mailer");
 
 /**
- * 
  * @param {string} template 
  * @param {string} subject 
  * @param {object} context 

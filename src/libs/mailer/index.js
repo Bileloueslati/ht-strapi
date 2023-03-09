@@ -15,16 +15,18 @@ const mailer = NodeMailer.createTransport({
   },
 });
 
+const viewPath = `${__dirname}/views/`;
+
 mailer.use(
   "compile",
   Hbs({
-    viewPath: `${__dirname}/views/`,
+    viewPath,
     extName: ".hbs",
     viewEngine: {
       extname: ".hbs",
-      layoutsDir: `${__dirname}/views/`,
+      layoutsDir: viewPath,
       defaultLayout: false,
-      partialsDir: `${__dirname}/views/`,
+      partialsDir: viewPath,
     },
   })
 );
